@@ -1,0 +1,27 @@
+.main-product-sections{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* width: 90%; */
+    max-width: 1110px;
+    margin-left: 25%;
+}
+
+@media(max-width:767px){
+    .main-product-sections{
+        width: 90%;
+        margin: auto;
+        /* margin: 10px !important; */
+    }
+}
+@media(min-width:768px){
+    .product-container{
+        margin-left: 13%;
+        /* padding: 10px; */
+        margin-right: 10%;
+    }
+}
+
+.user-main-container{
+    
+}

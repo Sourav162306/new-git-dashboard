@@ -1,0 +1,26 @@
+.transaction-card-container{
+    background-color: #65a37bbd;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+@media(max-width:450px){
+    .transaction-card-container{
+        width: 98%;
+    }
+    
+}
+
+@media(min-width:451px) and (max-width:900px){
+    .transaction-card-container{
+        width: 45%;
+    }
+}
+
+@media(min-width:900px){
+    .transaction-card-container{
+        width: 28%;
+    }
+}
